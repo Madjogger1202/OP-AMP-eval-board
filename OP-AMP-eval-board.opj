@@ -1,0 +1,166 @@
+(ExpressProject "OP-AMP-eval-board"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[01/11/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "D:\Cadence\tools\capture\library\pspice\analog.olb"
+        (DisplayName "D:\Cadence\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\tools\capture\library\pspice\breakout.olb"
+        (DisplayName "D:\Cadence\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\tools\capture\library\pspice\source.olb"
+        (DisplayName "D:\Cadence\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "D:\Cadence\tools\capture\library\pspice\special.olb"
+        (DisplayName "D:\Cadence\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "op-amp-eval-board.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Output Board File" ".\allegro\op-amp-eval-board.brd"))
+  (Folder "Layout"
+    (File ".\allegro\op-amp-eval-board.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\op-amp-eval-board.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\op-amp-eval-board-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\op-amp-eval-board-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (X_KF301-2P
+      (FullPartName "X_KF301-2P.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (X_DC-005-5A-20
+      (FullPartName "X_DC-005-5A-20.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (XW_SMA-EDGE-S
+      (FullPartName "XW_SMA-EDGE-S.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (DA_LMV321B-TR
+      (FullPartName "DA_LMV321B-TR.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "vakva")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\OP-AMP-eval-board\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\OP-AMP-eval-board\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\OP-AMP-eval-board\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\OP-AMP-eval-board\allegro\genfeed.log")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Github_dev\OP-AMP-eval-board\op-amp-eval-board.dsn")
+      (Path "Design Resources"
+         "D:\Github_dev\OP-AMP-eval-board\op-amp-eval-board.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "D:\Github_dev\OP-AMP-eval-board\op-amp-eval-board.dsn" "Design Cache")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"
+         "D:\Github_dev\OP-AMP-eval-board\op-amp-eval-board.dsn" "SCHEMATIC1"
+         "P02"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 426 0 797"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 0 0 5 1413 24 838")
+        (Scroll "-169 -6")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GITHUB_DEV\OP-AMP-EVAL-BOARD\OP-AMP-EVAL-BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "P01"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1413 24 838")
+        (Scroll "-169 -6")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GITHUB_DEV\OP-AMP-EVAL-BOARD\OP-AMP-EVAL-BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "P02"))))
